@@ -1,6 +1,6 @@
 const int pwmPinA = 9;  // OC1A or Throttle
 const int pwmPinB = 10; // OC1B or Steer
-const int PWM_FREQUENCY = 8000000; 
+const int PWM_FREQUENCY = 800000; 
 
 void setupTimer1(int frequency) {
   pinMode(pwmPinA, OUTPUT);
